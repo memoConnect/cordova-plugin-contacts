@@ -24,8 +24,8 @@
     id="de.cameonet.cordova.contacts.readonly"
     version="0.2.13">
 
-    <name>Contacts</name>
-    <description>Cordova Contacts Plugin</description>
+    <name>Contacts (readonly)</name>
+    <description>Cordova Contacts Plugin - removed permission to write contacts</description>
     <license>Apache 2.0</license>
     <keywords>cordova,contacts</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-contacts.git</repo>
