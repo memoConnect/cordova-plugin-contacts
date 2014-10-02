@@ -64,7 +64,7 @@
     </js-module>
 
     <js-module src="www/ContactFieldType.js" name="ContactFieldType">
-            <merge target="" />
+        <merges target="" />
     </js-module>
 
     <!-- android -->
@@ -214,6 +214,13 @@
     <!-- Windows 8 -->
     <platform name="windows8">
         <js-module src="src/windows8/ContactProxy.js" name="ContactProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+
+    <!-- Windows -->
+    <platform name="windows">
+        <js-module src="src/windows/ContactProxy.js" name="ContactProxy">
             <merges target="" />
         </js-module>
     </platform>
